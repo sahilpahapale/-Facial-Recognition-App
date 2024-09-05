@@ -10,4 +10,10 @@ Dataset Creation: Generates positive, negative, and anchor datasets for training
 
 Model Training: A CNN model is trained using TensorFlow/Keras for face recognition tasks.
 
-Directory Structure: Organizes the images into respective directories for training purposes.
+# Directory Structure
+
+The project organizes images into three main directories:
+
+data/positive: Contains images for the positive class (anchor faces).
+data/negative: Contains images for the negative class (non-anchor faces).
+data/anchor: Contains images for face verification tasks.
