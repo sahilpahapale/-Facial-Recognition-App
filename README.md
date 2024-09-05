@@ -15,5 +15,7 @@ Model Training: A CNN model is trained using TensorFlow/Keras for face recogniti
 The project organizes images into three main directories:
 
 data/positive: Contains images for the positive class (anchor faces).
+
 data/negative: Contains images for the negative class (non-anchor faces).
+
 data/anchor: Contains images for face verification tasks.
